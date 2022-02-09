@@ -245,9 +245,8 @@ let usersList = [
 
     </div>
 */
-
     for (i=0; i<usersList.length; i++){
-        document.write(`<div class="userBox">
+        document.write(<div class = "wrap">)
                        <div class="userBlock">
                            <h2>${usersList[i].id} - ${usersList[i].name} - ${usersList[i].username}</h2>
                            <h3>${usersList[i].email} - ${usersList[i].phone}</h3>
@@ -260,5 +259,6 @@ let usersList = [
                         </div>
                        </div>
                        </div>`)
+            
 
 }

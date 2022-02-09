@@ -1,12 +1,15 @@
+
+}
 .userBox{
     width: 50%;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     margin: 10px auto;
 
 }
 .userBlock{
-    display: flex;
+
     flex-wrap: wrap;
     flex-direction: column;
 }
