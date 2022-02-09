@@ -48,23 +48,29 @@ EXAMPLE:
     [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ name, age, model ]*/
 
 
-/*
+
 let array = [{name: 'Dima', age: 13}, {model: 'Camry'}];
 
 
 
-function Keys(arr){
+/*function Keys(arr){
     let arrays = []
-    for (const element of arr) {
-        let result = arrays.push(Object.keys(element));
-        console.log(result)
-
+    for (i=0; i<arr.length; i++){
+        let result = Object.keys(arr[i])
+        return result
     }
-
-
 }
 
 console.log(Keys(array))*/
 
 
-//Не розумію
+/*
+// function Keys(arr){
+//     let arrays = []
+//     for (i=0; i<arr.length; i++){
+//         let result = Object.values(arr[i])
+//         return result
+//     }
+// }
+//
+// console.log(Keys(array))*/
