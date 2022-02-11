@@ -53,15 +53,15 @@ let array = [{name: 'Dima', age: 13}, {model: 'Camry'}];
 
 
 
-/*function Keys(arr){
+function Keys(arr){
     let arrays = []
     for (i=0; i<arr.length; i++){
-        let result = Object.keys(arr[i])
+        let result = Object.entries(arr[i]);
         return result
     }
 }
 
-console.log(Keys(array))*/
+console.log(Keys(array))
 
 
 /*
