@@ -42,7 +42,7 @@ console.log(sortArr);*/
 створити пустий масив, наповнити його 10 об'єктами Client*/
 
 
-class Client{
+/*class Client{
     constructor(id, name, surname, email, phone, order) {
         this.id = id;
         this.name = name;
@@ -62,4 +62,6 @@ let clientArr =[
 console.log(clientArr)
 
 let sortArr = clientArr.sort((a,b)=>a.order.length-b.order.length);
-console.log(sortArr);
+console.log(sortArr);*/
+
+
