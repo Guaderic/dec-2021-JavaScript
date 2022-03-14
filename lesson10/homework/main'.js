@@ -72,7 +72,7 @@ for (const item of comments) {
 
 
     btn.onclick = () =>{
-       p.classList.toggle('hidden')
+       p.classList.add('pHidden')
 
     }
     div.append(h,p,btn);
