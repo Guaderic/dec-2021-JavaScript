@@ -1,0 +1,16 @@
+.user{
+    background: bisque;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    margin-right: calc(25% - 100px);
+    margin-left: calc(25% - 100px);
+
+}
+.users{
+    display: flex;
+    flex-wrap: wrap;
+}
