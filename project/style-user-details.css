@@ -1,5 +1,7 @@
 .user-details{
     background: bisque;
+    margin: 2px;
+
 }
 .posts{
     display: flex;

@@ -4,4 +4,10 @@
 
 .comments{
     background: pink;
+    display: flex;
+    flex-wrap: wrap;
+}
+.comments > li{
+    width: 350px;
+    margin: 20px;
 }
